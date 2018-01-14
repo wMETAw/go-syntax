@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ea4fb3-5702-4daa-8cb6-30c19de687b4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/function.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,13 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="function.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="456">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +70,7 @@
         <option value="$PROJECT_DIR$/variable.go" />
         <option value="$PROJECT_DIR$/pointer.go" />
         <option value="$PROJECT_DIR$/function.go" />
+        <option value="$PROJECT_DIR$/array.go" />
       </list>
     </option>
   </component>
@@ -124,7 +137,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build function.go">
+  <component name="RunManager" selected="Go Build.go build array.go">
+    <configuration name="go build array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="syntax" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/array.go" />
+      <package value="syntax" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="syntax" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -152,16 +174,18 @@
       <package value="syntax" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build variable.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build pointer.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build function.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build array.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build function.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build pointer.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build variable.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build array.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build function.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build pointer.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build variable.go" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="variable" />
+    <MESSAGE value="function" />
+    <option name="LAST_COMMIT_MESSAGE" value="function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -228,10 +253,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/function.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="456">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
