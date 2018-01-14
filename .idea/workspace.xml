@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ea4fb3-5702-4daa-8cb6-30c19de687b4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pointer.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/function.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pointer.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pointer.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pointer.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/function.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -45,6 +57,7 @@
       <list>
         <option value="$PROJECT_DIR$/variable.go" />
         <option value="$PROJECT_DIR$/pointer.go" />
+        <option value="$PROJECT_DIR$/function.go" />
       </list>
     </option>
   </component>
@@ -54,7 +67,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -111,7 +124,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build pointer.go">
+  <component name="RunManager" selected="Go Build.go build function.go">
+    <configuration name="go build function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="syntax" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/function.go" />
+      <package value="syntax" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="syntax" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -130,14 +152,16 @@
       <package value="syntax" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build variable.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build pointer.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build function.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build pointer.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build variable.go" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build function.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build pointer.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build variable.go" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +169,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="975" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="975" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -187,7 +211,7 @@
         <state relative-caret-position="399">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#14#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -196,6 +220,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
